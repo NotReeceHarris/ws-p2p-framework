@@ -10,7 +10,7 @@ def send(data):
 
     return data
 
-def recv(data):
+def recv(data, client):
     print(f"Received: {data}")
     
-    return data
+    return data, 'Friend'
