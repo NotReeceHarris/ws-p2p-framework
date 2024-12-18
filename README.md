@@ -28,6 +28,7 @@ Here are some notable forks of the ws-p2p-framework that add specific functional
 Name | Description | Link
 --- | --- | ---
 ws-p2p-rsa | RSA encrypted per-to-per communication. | [NotReeceHarris/ws-p2p-rsa](https://github.com/NotReeceHarris/ws-p2p-rsa)
+ws-p2p-aes | AES encrypted per-to-per communication. | [NotReeceHarris/ws-p2p-aes](https://github.com/NotReeceHarris/ws-p2p-aes)
 
 ## License
 
