@@ -154,6 +154,7 @@ class App(ctk.CTk):
             self.recv_message(message, sender="You")
             self.entry.delete(0, tk.END)
         except Exception as e:
+            print(e)
             self.recv_message(f"Failed to send message: {str(e)}", sender="Alert")
 
 def handler(websocket):
@@ -164,8 +165,8 @@ def handler(websocket):
     while websocket.state:
         try:
             message = websocket.recv()
-            decoded_message = recv(message)
-            app.recv_message(decoded_message, sender="Friend")
+            decoded_message, sender = recv(message, app.client)
+            app.recv_message(decoded_message, sender=sender)
         except Exception:
             break
     app.is_connected()
@@ -191,8 +192,8 @@ def run_client():
                 while client.state:
                     try:
                         message = client.recv()
-                        decoded_message = recv(message)
-                        app.recv_message(decoded_message, sender="Friend")
+                        decoded_message, sender = recv(message, app.client)
+                        app.recv_message(decoded_message, sender=sender)
                     except Exception as e:
                         app.recv_message(f"Failed to decode message: {str(e)}", sender="Alert")
                         break
