@@ -29,7 +29,7 @@ Name | Algorithm | Link
 ---  | --- | ---
 ws-p2p-rsa | RSA | [NotReeceHarris/ws-p2p-rsa](https://github.com/NotReeceHarris/ws-p2p-rsa)
 ws-p2p-aes | RSA + AES256 | [NotReeceHarris/ws-p2p-aes](https://github.com/NotReeceHarris/ws-p2p-aes)
-ws-p2p-dilithium | RSA + AES256 + DILITHIUM2 | [NotReeceHarris/ws-p2p-dilithium](https://github.com/NotReeceHarris/ws-p2p-dilithium)
+ws-p2p-dilithium | RSA + AES256 + DILITHIUM4 | [NotReeceHarris/ws-p2p-dilithium](https://github.com/NotReeceHarris/ws-p2p-dilithium)
 
 ## License
 
