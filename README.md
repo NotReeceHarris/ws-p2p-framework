@@ -25,10 +25,11 @@ python3 main.py --target 192.168.0.2:8000 --host 192.168.0.1:8000
 
 Here are some notable forks of the ws-p2p-framework that add specific functionalities:
 
-Name | Description | Link
---- | --- | ---
-ws-p2p-rsa | RSA encrypted per-to-per communication. | [NotReeceHarris/ws-p2p-rsa](https://github.com/NotReeceHarris/ws-p2p-rsa)
-ws-p2p-aes | AES encrypted per-to-per communication. | [NotReeceHarris/ws-p2p-aes](https://github.com/NotReeceHarris/ws-p2p-aes)
+Name | Algorithm | Link
+---  | --- | ---
+ws-p2p-rsa | RSA | [NotReeceHarris/ws-p2p-rsa](https://github.com/NotReeceHarris/ws-p2p-rsa)
+ws-p2p-aes | RSA + AES256 | [NotReeceHarris/ws-p2p-aes](https://github.com/NotReeceHarris/ws-p2p-aes)
+ws-p2p-dilithium | RSA + AES256 + DILITHIUM2 | [NotReeceHarris/ws-p2p-dilithium](https://github.com/NotReeceHarris/ws-p2p-dilithium)
 
 ## License
 
